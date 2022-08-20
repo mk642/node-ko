@@ -11,7 +11,7 @@ mongoose
   .catch((err) => console.log(err));
 
 app.get('/', (req, res) => {
-  res.send('Hello World!민기');
+  res.send('Hello World!');
 });
 
 app.listen(port, () => {
